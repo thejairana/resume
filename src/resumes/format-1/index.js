@@ -6,13 +6,13 @@ function resume1() {
     return (
         <div className="resume" id="resume">
 
-            <div className="resume-header">
-                <div className="name">{DATA.name}</div>
-                <div className="bio">{DATA.designation}</div>
-                <div className="desrciption">{DATA.aboutMe}</div>
+            <div className="f1-resume-header">
+                <div className="f1-name">{DATA.name}</div>
+                <div className="f1-bio">{DATA.designation}</div>
+                <div className="f1-desrciption">{DATA.aboutMe}</div>
             </div>
 
-            <div className="personal-details">
+            <div className="f1-personal-details">
                 <div className="row">
                     {DATA.details.map((detail, index) => {
                         return (
@@ -24,12 +24,12 @@ function resume1() {
                 </div>
             </div>
 
-            <div className="professional-details">
+            <div className="f1-professional-details">
                 <div className="row">
                     {/* Part 1 */}
                     <div className="col-6 f1-side-1">
                         <div className="f1-section">
-                            <div className="heading">SKILLS</div>
+                            <div className="f1-heading">SKILLS</div>
                             <div className="f1-skills f1-sub-section">
                                 {DATA.skills.map((skill, index) => {
                                     return (<span key={index}>{skill}</span>);
@@ -38,7 +38,7 @@ function resume1() {
                         </div>
 
                         <div className="f1-section f1-section-border">
-                            <div className="heading">Work Experience</div>
+                            <div className="f1-heading">Work Experience</div>
                             {DATA.experience.map((experience, index) => {
                                 return (
                                     <div className={'f1-sub-section ' + (index !== 0 ? 'f1-margin-top-15' : '')} key={index}>
@@ -62,7 +62,7 @@ function resume1() {
                         </div>
 
                         <div className="f1-section f1-section-border">
-                            <div className="heading">Education</div>
+                            <div className="f1-heading">Education</div>
                             {DATA.educations.map((education, index) => {
                                 return (
                                     <div key={index} className={'f1-sub-section ' + (index !== 0 ? 'f1-margin-top-15' : '')}>
@@ -87,11 +87,11 @@ function resume1() {
                     {/* Part 2 */}
                     <div className="col-6 f1-side-2">
                         <div className="f1-section">
-                            <div className="heading">Projects</div>
+                            <div className="f1-heading">Projects</div>
                             {DATA.projects.map((project, index) => {
                                 return (
-                                    <div className="project" key={index}>
-                                        <div className="project-name">
+                                    <div className="f1-project" key={index}>
+                                        <div className="f1-project-name">
                                             <span>{project.name}</span>
                                             {project.link &&
                                                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="f1-project-link">
@@ -99,8 +99,8 @@ function resume1() {
                                                 </a>
                                             }
                                         </div>
-                                        <div className="achievements">{project.tech}</div>
-                                        <div className="project-desc">{project.desc}</div>
+                                        <div className="f1-pro-tech">{project.tech}</div>
+                                        <div className="f1-project-desc">{project.desc}</div>
                                     </div>
                                 );
                             })}

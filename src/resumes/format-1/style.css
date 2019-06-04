@@ -6,12 +6,12 @@
     overflow: hidden;
 }
 
-.resume-header {
+.f1-resume-header {
     background: #374458;
     padding: 15px 25px;
 }
 
-.resume-header .name {
+.f1-resume-header .f1-name {
     color: #fff;
     font-size: 30px;
     letter-spacing: .5px;
@@ -19,7 +19,7 @@
     line-height: 30px;
 }
 
-.resume-header .bio {
+.f1-resume-header .f1-bio {
     font-size: 16px;
     color: #4d8bc5;
     line-height: 19px;
@@ -27,33 +27,33 @@
     margin-top: 5px;
 }
 
-.resume-header .desrciption {
+.f1-resume-header .f1-desrciption {
     font-size: 12px;
     color: #fff;
     margin-top: 8px;
 }
 
-.personal-details {
+.f1-personal-details {
     background: #2b343f;
     padding: 15px 25px;
     color: #fff;
     font-size: 13px;
 }
 
-.personal-details .col-6 {
+.f1-personal-details .col-6 {
     margin-bottom: 8px;
 }
 
-.personal-details span {
+.f1-personal-details span {
     margin-left: 8px;
 }
 
-.professional-details {
+.f1-professional-details {
     background: #f2f2f2;
     padding: 15px 25px;
 }
 
-.heading {
+.f1-heading {
     color: #4f90cd;
     font-size: 20px;
     font-weight: 600;
@@ -150,20 +150,20 @@
     border-top: 2px solid #c2c2c2;
 }
 
-.achievements {
+.f1-pro-tech {
     font-size: 13px;
     color: #4f90cd;
     font-style: italic;
 }
 
-.achievements-list {
+/* .f1-achievements-list {
     margin: 0;
     padding: 0;
     width: 100%;
     padding-left: 16px;
     font-size: 13px;
     font-weight: 500;
-}
+} */
 
 
 
@@ -194,13 +194,13 @@
     margin-top: 4px;
 }
 
-.project-name {
+.f1-project-name {
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
 }
 
-.project-desc {
+.f1-project-desc {
     font-size: 12px;
     font-style: italic;
     color: #888;
@@ -211,26 +211,26 @@ body {
     counter-reset: project;
 }
 
-.project-name::before {
+.f1-project-name::before {
     counter-increment: project;
     content: counter(project) ". ";
 }
 
-.project:not(:first-child) {
+.f1-project:not(:first-child) {
     margin-top: 8px;
 }
 
-.certificate:not(:first-child) {
+.f1-certificate:not(:first-child) {
     margin-top: 8px;
 }
 
-.certification {
+.f1-certification {
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
 }
 
-.certification-desc {
+.f1-certification-desc {
     font-size: 12px;
     font-style: italic;
     color: #888;
