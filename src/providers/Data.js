@@ -1,5 +1,5 @@
 const personalDetails = {
-    name: 'Jay Kumar',
+    name: 'JAY KUMAR',
     designation: 'Full Stack Web Developer',
     aboutMe: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience in web development.
             Mostly i worked on Javascript frameworks such as Angular, NodeJS, Ionic etc.
@@ -20,7 +20,8 @@ const personalDetails = {
             duration: '02/2018 - Present',
             location: 'Jaipur',
             desc: `I joined this startup in early stage of success as a full stack developer. I had developed & managed main product of elogist known as walle8.
-                    Currenlty we are developing a digitalized system for logistic service proiders know as 'DOST'. My Role in this product is to manage front end development.`,
+                    Currenlty we are developing a digitalized system for logistic service proiders know as 'DOST'. 
+                    My Role in the current product is to manage front end development.`,
         },
         {
             designation: 'Full Stack Developer',
@@ -29,7 +30,7 @@ const personalDetails = {
             location: 'Jaipur',
             desc: `The RedWheel is a service based company founded by me & my friends. In this company we developed many mobile & web applications for the client 
             with 90% of satisfication without deadline exceeded. We worked on more than 3 startups to developed their products And our best achivement to develop
-            Javascript plugin of "QK Feedback" Just in 1 hour and 38 minutes. In this company we have worked with SeeADoc, Volkswagen Jaipur, QK Feedback, 
+            Javascript plugin of "QK Feedback" Just in 2 hours. In this company we have worked with SeeADoc, Volkswagen Jaipur, QK Feedback, 
             The PeakOk Dispensary, The ShortCut and others.`,
         },
         {
@@ -38,7 +39,7 @@ const personalDetails = {
             duration: '01/2017 - 06/2017',
             location: 'Jaipur',
             desc: `This is my first company. I joinded it as a full stack developer & my first project in this company is "Sparup" mobile & web application. 
-            I worked hard on this project and handle complete front end development alone & delivered this project before the deadlines and get appriciation
+            I worked hard on this project and handle complete front end development alone & delivered this project before the deadline and get appriciation
             from the client. I also worked here on many applications such as MyLib, Car Rental, QuizApp, Chat Application etc.`,
         }
     ],

@@ -1,6 +1,6 @@
 .resume {
-    width: 210mm;
-    height: 297mm;
+    width: 210.5mm;
+    height: 296.5mm;
     margin: auto;
     background: #f2f2f2;
     overflow: hidden;
@@ -207,13 +207,11 @@
     line-height: 15px;
 }
 
-body {
-    counter-reset: project;
-}
+
 
 .f1-project-name::before {
-    counter-increment: project;
-    content: counter(project) ". ";
+    /* counter-increment: project; */
+    content: '';
 }
 
 .f1-project:not(:first-child) {
