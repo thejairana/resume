@@ -8,7 +8,7 @@ function resume1() {
 
             <div className="f1-resume-header">
                 <div className="f1-name">{DATA.name}</div>
-                <div className="f1-bio">{DATA.designation}</div>
+                <div className="f1-designation">{DATA.designation}</div>
                 <div className="f1-desrciption">{DATA.aboutMe}</div>
             </div>
 
