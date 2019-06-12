@@ -4,7 +4,7 @@ const personalDetails = {
     aboutMe: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience in web development.
             Mostly i worked on Javascript frameworks such as Angular, NodeJS, Ionic etc.
             Recently I trained a team on Angular & Ionic within 3 weeks and getting 80% success.
-            I have developed products for more than 5 startups with 90% work satisfaction.`,
+            I have developed products for more than 3 startups with upto 90% work satisfaction.`,
     details: [
         { icon: 'fa fa-envelope', name: 'therana.jai@gmail.com' },
         { icon: 'fa fa-github', name: 'github.com/thejairana' },
