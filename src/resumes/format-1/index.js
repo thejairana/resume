@@ -17,7 +17,10 @@ function resume1() {
                     {DATA.details.map((detail, index) => {
                         return (
                             <div className="col-6" key={index}>
-                                <i className={detail.icon}></i> <span>{detail.name}</span>
+                                <i className={detail.icon}></i>
+                                <span dangerouslySetInnerHTML={{ __html: detail.html }}>
+
+                                </span>
                             </div>
                         );
                     })}
@@ -48,10 +51,10 @@ function resume1() {
                                                 <i className="fa fa-calendar"></i>
                                                 <span>{experience.duration}</span>
                                             </div>
-                                            <div className="col-6">
+                                            {/* <div className="col-6">
                                                 <i className="fa fa-map"></i>
                                                 <span>{experience.location}</span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="f1-ex-desc">
                                             {experience.desc}
@@ -73,10 +76,10 @@ function resume1() {
                                                 <i className="fa fa-calendar"></i>
                                                 <span>{education.duration}</span>
                                             </div>
-                                            <div className="col-6">
+                                            {/* <div className="col-6">
                                                 <i className="fa fa-map"></i>
                                                 <span>{education.location}</span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 );

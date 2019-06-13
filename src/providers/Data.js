@@ -6,12 +6,12 @@ const personalDetails = {
             Recently I trained a team on Angular & Ionic within 3 weeks and getting 80% success.
             I have developed products for more than 3 startups with upto 90% work satisfaction.`,
     details: [
-        { icon: 'fa fa-envelope', name: 'therana.jai@gmail.com' },
-        { icon: 'fa fa-github', name: 'github.com/thejairana' },
-        { icon: 'fa fa-github', name: 'thejairana.github.io/portfolio' },
-        { icon: 'fa fa-linkedin', name: 'https://www.linkedin.com/in/jai-rana/' },
-        { icon: 'fa fa-mobile', name: '+918385803337, +916378922131' },
-        { icon: 'fa fa-calendar', name: '15 Aug 1993' },
+        { icon: 'fa fa-envelope', html: `<a href="mailto:therana.jai@gmail.com" alt="therana.jai@gmail.com" target="_blank" rel="noopener noreferrer">therana.jai@gmail.com</a>` },
+        { icon: 'fa fa-github', html: `<a href="https://github.com/thejairana" alt="github" target="_blank" rel="noopener noreferrer">github.com/thejairana</a>` },
+        { icon: 'fa fa-github', html: `<a href="https://thejairana.github.io/portfolio" alt="github" target="_blank" rel="noopener noreferrer">thejairana.github.io/portfolio</a>` },
+        { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
+        { icon: 'fa fa-mobile', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
+        { icon: 'fa fa-calendar', html: `15 Aug 1993` },
     ],
     experience: [
         {
@@ -19,34 +19,33 @@ const personalDetails = {
             company: 'Elogist Private Ltd.',
             duration: '02/2018 - Present',
             location: 'Jaipur',
-            desc: `I joined this startup in early stage of success as a full stack developer. I had developed & managed main product of elogist known as walle8.
-                    Currenlty we are developing a digitalized system for logistic service proiders know as 'DOST'. 
-                    My Role in the current product is to manage front end development.`,
+            desc: `I am joined this startup as a full stack developer. I had developed main product of elogist known as walle8.
+            Currently we are developing a digitalized system for logistic service providers know as 'DOST'. My Role in the current product 
+            is to manage front end development.`,
         },
         {
             designation: 'Full Stack Developer',
             company: 'The RedWheel',
             duration: '07/2017 - 01/2018',
             location: 'Jaipur',
-            desc: `The RedWheel is a service based company founded by me & my friends. In this company we developed many mobile & web applications for the client 
-            with 90% of satisfication without deadline exceeded. We worked on more than 3 startups to developed their products And our best achivement to develop
-            Javascript plugin of "QK Feedback" Just in 2 hours. In this company we have worked with SeeADoc, Volkswagen Jaipur, QK Feedback, 
-            The PeakOk Dispensary, The ShortCut and others.`,
+            desc: `The Red Wheel was a service based company founded by me & my friends. In this company we was developed many mobile & web applications for 
+            the client with upto 90% of satisfaction. We worked with more than 3 startups and developed their products. And your best achievement was 
+            Javascript plugin development Just in 2 hours. In this company we had work with SeADoc, Volkswagen Jaipur, QK Feedback, The Peak Dispensary, The ShortCut and others.`,
         },
         {
             designation: 'Full Stack Developer',
             company: 'Youstart',
             duration: '01/2017 - 06/2017',
             location: 'Jaipur',
-            desc: `This is my first company. I joinded it as a full stack developer & my first project in this company is "Sparup" mobile & web application. 
-            I worked hard on this project and handle complete front end development alone & delivered this project before the deadline and get appriciation
-            from the client. I also worked here on many applications such as MyLib, Car Rental, QuizApp, Chat Application etc.`,
+            desc: `This was my first company. I joined this company as a full stack developer. And my first project was "Sparup". 
+            I worked hard on this project and handle complete front end development alone. We delivered this project before the deadline and get appreciation from the client. 
+            I also worked here on many applications such as MyLib, Car Rental, Quiz App, Chat Application etc.`,
         }
     ],
     educations: [
         {
             name: 'B. Tech.',
-            college: 'JNIT, Jaipur',
+            college: 'Jagannath Gupta Institute of Engineering & Technology (JNIT)',
             duration: '2013 - 2017',
             location: 'Jaipur',
             stream: 'Computer Science',
@@ -64,11 +63,11 @@ const personalDetails = {
     skills: ['Javascript', 'Angular', 'NodeJS', 'Ionic', 'Git', 'MongoDB'],
     projects: [
         {
-            name: 'DOST (Digitalization of Smart Transporation)',
+            name: 'DOST (Digital Operations for Smart Transportation)',
             tech: 'Angular, Ionic, Cake Php, PostgreSQL',
             desc: `DOST is a complete ERP for logistic owners to manage their records. 
             It has more than 7 modules such as accounting, trips, tyres, documents etc.`,
-            link: 'http://elogist.in/testing/dost/'
+            link: 'http://elogist.in/dost/'
         },
         {
             name: 'Walle8',

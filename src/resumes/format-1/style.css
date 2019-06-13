@@ -48,6 +48,10 @@
     margin-left: 8px;
 }
 
+.f1-personal-details span a {
+    color: inherit;
+}
+
 .f1-professional-details {
     background: #f2f2f2;
     padding: 15px 25px;
