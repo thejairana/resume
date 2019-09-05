@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import DATA from '../../providers/Data';
+import DATA from '../../providers/rinku';
 
 function resume1() {
     return (
@@ -18,9 +18,7 @@ function resume1() {
                         return (
                             <div className="col-6" key={index}>
                                 <i className={detail.icon}></i>
-                                <span dangerouslySetInnerHTML={{ __html: detail.html }}>
-
-                                </span>
+                                <span dangerouslySetInnerHTML={{ __html: detail.html }}></span>
                             </div>
                         );
                     })}
@@ -32,7 +30,7 @@ function resume1() {
                     {/* Part 1 */}
                     <div className="col-6 f1-side-1">
                         <div className="f1-section">
-                            <div className="f1-heading">SKILLS</div>
+                            {/* <div className="f1-heading">SKILLS</div> */}
                             <div className="f1-skills f1-sub-section">
                                 {DATA.skills.map((skill, index) => {
                                     return (<span key={index}>{skill}</span>);
@@ -51,14 +49,16 @@ function resume1() {
                                                 <i className="fa fa-calendar"></i>
                                                 <span>{experience.duration}</span>
                                             </div>
-                                            {/* <div className="col-6">
-                                                <i className="fa fa-map"></i>
-                                                <span>{experience.location}</span>
-                                            </div> */}
                                         </div>
                                         <div className="f1-ex-desc">
                                             {experience.desc}
                                         </div>
+                                        <div className="f1-ex-desc">{experience.myRole}</div>
+                                        <ul>
+                                            {experience.points.map((point, index) => {
+                                                return <li key={index}>{point}</li>
+                                            })}
+                                        </ul>
                                     </div>
                                 );
                             })}
@@ -76,10 +76,6 @@ function resume1() {
                                                 <i className="fa fa-calendar"></i>
                                                 <span>{education.duration}</span>
                                             </div>
-                                            {/* <div className="col-6">
-                                                <i className="fa fa-map"></i>
-                                                <span>{education.location}</span>
-                                            </div> */}
                                         </div>
                                     </div>
                                 );
@@ -90,23 +86,42 @@ function resume1() {
                     {/* Part 2 */}
                     <div className="col-6 f1-side-2">
                         <div className="f1-section">
-                            <div className="f1-heading">Projects</div>
-                            {DATA.projects.map((project, index) => {
-                                return (
-                                    <div className="f1-project" key={index}>
-                                        <div className="f1-project-name">
-                                            <span>{project.name}</span>
-                                            {project.link &&
-                                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="f1-project-link">
-                                                    <i className="fa fa-link"></i>
-                                                </a>
-                                            }
-                                        </div>
-                                        <div className="f1-pro-tech">{project.tech}</div>
-                                        <div className="f1-project-desc">{project.desc}</div>
-                                    </div>
-                                );
-                            })}
+                            <div className="f1-heading">Heighlights</div>
+                            <ul className="f1-heighlight-points">
+                                <li>Handled multiple phone lines to make reservations, answer customer questions and give quotes</li>
+                                <li>Transferred cars from location to location depending on customers' needs</li>
+                                <li>Maintained the cleanliness and needs of the vehicle to ensure customer satisfaction</li>
+                                <li>Took care that customers were satisfied and happy</li>
+                                <li>Handled upset customers, conflicts and challenging situations.</li>
+                                <li>Complete paperwork with customers and take payments.</li>
+                                <li>Provide ongoing service and sales support.</li>
+                                <li>Processed on-line, phone and walk-in reservations</li>
+                                <li>Provided telephone customer service for escalated client issues</li>
+                                <li>Ability to focus on multiple projects</li>
+                                <li>Immense ability to generate rental, lease and used vehicle sales leads</li>
+                                <li>Great ability to identify prospects for upgrades presentation to customers</li>
+                                <li>Excellent Customer Service Skills</li>
+                            </ul>
+                        </div>
+
+                        <div className="f1-section">
+                            <div className="f1-heading">Address</div>
+                            {/* <div>4C-28, ZONE-C, Shivalik Appartment, Sector-4, Indira Gandhi Nagar, Jagatpura</div>
+                            <div>Jaipur, Rajasthan</div>
+                            <div>302017</div> */}
+                            <div>Quarter No - 235, Tower - 2, 9th Floor</div>
+                            <div>ESIC Hosital Campus, Sector - 24</div>
+                            <div>Noida, U.P. (201301)</div>
+                            <div className="row" style={{ marginTop: "25px" }}>
+                                <div className="col-6">
+                                    <div><strong>Date:</strong></div>
+                                    <div style={{ marginTop: "10px" }}><strong>Place:</strong></div>
+                                </div>
+                                <div className="col-6">
+                                    <div style={{ marginTop: "35px" }}><strong>( Satendra Singh )</strong></div>
+                                </div>
+
+                            </div>
                         </div>
 
 
@@ -117,7 +132,7 @@ function resume1() {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

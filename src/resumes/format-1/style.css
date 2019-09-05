@@ -28,7 +28,7 @@
 }
 
 .f1-resume-header .f1-desrciption {
-    font-size: 12px;
+    font-size: 15px;
     color: #fff;
     margin-top: 8px;
 }
@@ -37,7 +37,7 @@
     background: #2b343f;
     padding: 15px 25px;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .f1-personal-details .col-6 {
@@ -65,15 +65,15 @@
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
-    display: none;
+    /* display: none; */
 }
 
 /* Experience */
 
 .f1-ex-compnay {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .f1-ex-position {
@@ -84,7 +84,7 @@
 }
 
 .f1-ex-working {
-    font-size: 12px;
+    font-size: 16px;
     color: #4f90cd;
     font-style: italic;
 }
@@ -99,7 +99,7 @@
 }
 
 .f1-ex-desc {
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
     color: #333;
 }
@@ -109,8 +109,8 @@
 /* Education */
 .f1-edu-degree {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 19px;
+    line-height: 25px;
 }
 
 .f1-edu-stream {
@@ -122,11 +122,11 @@
 
 .f1-edu-college {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .f1-edu-time-place {
-    font-size: 12px;
+    font-size: 14px;
     color: #4f90cd;
     font-style: italic;
 }
@@ -179,7 +179,7 @@
 }
 
 .f1-section .f1-sub-section {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .f1-sub-section:first-child {
@@ -189,7 +189,7 @@
 .f1-skills span {
     background: #2b343f;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     padding: 3px 8px;
     border-radius: 4px;
     margin-right: 8px;
@@ -241,4 +241,8 @@
 
 .f1-margin-top-15 {
     margin-top: 15px !important;
+}
+
+.f1-heighlight-points {
+    padding-inline-start: 25px !important;
 }
