@@ -25,17 +25,16 @@ const personalDetails = {
         },
         {
             designation: 'Full Stack Developer',
-            company: 'The RedWheel',
-            duration: '07/2017 - 01/2018',
+            company: 'Appwallaz',
+            duration: '05/2017 - 01/2018',
             location: 'Jaipur',
-            desc: `The Red Wheel was a service based company founded by me & my friends. In this company we was developed many mobile & web applications for 
-            the client with upto 90% of satisfaction. We worked with more than 3 startups and developed their products. And your best achievement was 
+            desc: `In this company we was developed many mobile & web applications for the client with upto 90% of satisfaction. We worked with more than 3 startups and developed their products. And your best achievement was 
             Javascript plugin development Just in 2 hours. In this company we had work with SeADoc, Volkswagen Jaipur, QK Feedback, The Peak Dispensary, The ShortCut and others.`,
         },
         {
             designation: 'Full Stack Developer',
             company: 'Youstart',
-            duration: '01/2017 - 06/2017',
+            duration: '01/2017 - 05/2017',
             location: 'Jaipur',
             desc: `This was my first company. I joined this company as a full stack developer. And my first project was "Sparup". 
             I worked hard on this project and handle complete front end development alone. We delivered this project before the deadline and get appreciation from the client. 
