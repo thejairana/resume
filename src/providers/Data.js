@@ -1,7 +1,7 @@
 const personalDetails = {
     name: 'JAY KUMAR',
     designation: 'Full Stack Web Developer',
-    aboutMe: `I'm an innovative Full Stack Web Developer with 2 years, 7 month's of work experience in web development.
+    aboutMe: `I'm an innovative Full Stack Web Developer with 3 years of work experience (2 years, 7 months in hand) in web development.
             Mostly i worked on Javascript frameworks such as Angular, NodeJS, Ionic etc.
             Recently I trained a team on Angular & Ionic within 3 weeks and getting 80% success.
             I have developed products for more than 3 startups with upto 90% work satisfaction.`,
