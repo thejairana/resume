@@ -1,14 +1,14 @@
 const personalDetails = {
     name: 'JAY KUMAR',
     designation: 'Full Stack Web Developer',
-    aboutMe: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience in web development.
+    aboutMe: `I'm an innovative Full Stack Web Developer with 2 years, 7 month's of work experience in web development.
             Mostly i worked on Javascript frameworks such as Angular, NodeJS, Ionic etc.
             Recently I trained a team on Angular & Ionic within 3 weeks and getting 80% success.
             I have developed products for more than 3 startups with upto 90% work satisfaction.`,
     details: [
         { icon: 'fa fa-envelope', html: `<a href="mailto:therana.jai@gmail.com" alt="therana.jai@gmail.com" target="_blank" rel="noopener noreferrer">therana.jai@gmail.com</a>` },
         { icon: 'fa fa-github', html: `<a href="https://github.com/thejairana" alt="github" target="_blank" rel="noopener noreferrer">github.com/thejairana</a>` },
-        { icon: 'fa fa-github', html: `<a href="https://thejairana.github.io/portfolio" alt="github" target="_blank" rel="noopener noreferrer">thejairana.github.io/portfolio</a>` },
+        // { icon: 'fa fa-github', html: `<a href="https://thejairana.github.io/portfolio" alt="github" target="_blank" rel="noopener noreferrer">thejairana.github.io/portfolio</a>` },
         { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
         { icon: 'fa fa-mobile', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
         { icon: 'fa fa-calendar', html: `15 Aug 1993` },
