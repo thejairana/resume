@@ -1,12 +1,12 @@
 const personalDetails = {
     name: 'JAY KUMAR',
-    designation: 'Full Stack Developer',
+    designation: 'Full Stack Web Developer',
     aboutMe: `I'm an innovative Full Stack Web Developer with 4 years of work experience (3 years in hand) in web development.
-            Mostly i worked on Javascript frameworks such as Angular, ReactJS, NodeJS, Ionic etc.
-            Recently I have created a version controller for pdf & BOT for automatic tally data insertion.
+            Mostly i worked on Javascript frameworks such as Angular, ReactJS, VueJS, NodeJS, Ionic etc.
+            Recently I trained a team on Angular & Ionic within 3 weeks and getting 80% success.
             I have developed products for more than 3 startups with upto 90% work satisfaction.`,
     details: [
-        { icon: 'fa fa-envelope', html: `<a href="mailto:jkrana008@gmail.com" alt="jkrana008@gmail.com" target="_blank" rel="noopener noreferrer">jkrana008@gmail.com</a>` },
+        { icon: 'fa fa-envelope', html: `<a href="mailto:therana.jai@gmail.com" alt="therana.jai@gmail.com" target="_blank" rel="noopener noreferrer">therana.jai@gmail.com</a>` },
         { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
         { icon: 'fa fa-mobile', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
         { icon: 'fa fa-calendar', html: `15 Aug 1993` },
@@ -62,30 +62,23 @@ const personalDetails = {
             desc: ''
         }
     ],
-    skills: ['Javascript', 'Python', 'MongoDB', 'Angular', 'ReactJS', 'NodeJS', 'Ionic'],
+    skills: ['Javascript', 'Python', 'MongoDB', 'Angular', 'ReactJS', 'VueJS', 'NodeJS', 'Ionic'],
     projects: [
         {
-            name: 'Automation (Bank, Challan, RC, Driver, Tally, Fastag)',
-            tech: 'Python, Selenium, UI Path',
-            desc: `Implemented Banking, Fastag, Challan, RC, Driver & Tally automation using Python & UI Path`,
+            name: 'Automation & ML',
+            tech: 'Python',
+            desc: `Implemented Banking, Fastag, Challan & Captcha automation using Python`,
             link: ''
         },
         {
             name: 'PDF Version Controller',
             tech: 'Javascript, Pdfjs, FabricJS',
-            desc: `A version controller for PDF using Javascript. You can view every level of changes & modify them.`,
+            desc: `A version controller for PDF using Javascript. Its like git for PDF.`,
             link: ''
         },
         {
-            name: 'Trackurate',
-            tech: 'Angular, Ionic, NodeJS, MongoDB',
-            desc: `DOST is a complete ERP for logistic owners to manage their records. 
-            It has more than 7 modules such as accounting, trips, tyres, documents etc.`,
-            link: 'https://play.google.com/store/apps/details?id=gold.fvts.in'
-        },
-        {
             name: 'DOST (Digital Operations for Smart Transportation)',
-            tech: 'Angular, Ionic',
+            tech: 'Angular,VueJS, Ionic, Javascript',
             desc: `DOST is a complete ERP for logistic owners to manage their records. 
             It has more than 7 modules such as accounting, trips, tyres, documents etc.`,
             link: 'http://elogist.in/dost/'
