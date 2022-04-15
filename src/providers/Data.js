@@ -1,6 +1,6 @@
 const personalDetails = {
     name: 'JAY KUMAR',
-    designation: '(Full Stack Developer)',
+    designation: '(Full Stack Developer) ',
     aboutMe: `I'm an innovative Full Stack Web Developer with 5 years of work experience (4 years in hand) in web development.
             Mostly I worked on Javascript frameworks such as Angular, React, NodeJS, Ionic, NestJS etc. 
             I have also worked on Banking, Fastage, Challan Automation using Python. I have developed products for more than 4 startups.
