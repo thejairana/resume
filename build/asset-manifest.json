@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.222b0a09.chunk.css",
+    "main.js": "/resume/static/js/main.9aacbec1.chunk.js",
+    "main.js.map": "/resume/static/js/main.9aacbec1.chunk.js.map",
+    "runtime~main.js": "/resume/static/js/runtime~main.30522d0f.js",
+    "runtime~main.js.map": "/resume/static/js/runtime~main.30522d0f.js.map",
+    "static/css/2.8fb740c1.chunk.css": "/resume/static/css/2.8fb740c1.chunk.css",
+    "static/js/2.c1cd600e.chunk.js": "/resume/static/js/2.c1cd600e.chunk.js",
+    "static/js/2.c1cd600e.chunk.js.map": "/resume/static/js/2.c1cd600e.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.1095e958e894ab70250e672fd88895ff.js": "/resume/precache-manifest.1095e958e894ab70250e672fd88895ff.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/2.8fb740c1.chunk.css.map": "/resume/static/css/2.8fb740c1.chunk.css.map",
+    "static/css/main.222b0a09.chunk.css.map": "/resume/static/css/main.222b0a09.chunk.css.map",
+    "static/media/font-awesome.min.css": "/resume/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
