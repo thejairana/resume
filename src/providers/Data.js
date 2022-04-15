@@ -1,10 +1,10 @@
 const personalDetails = {
     name: 'JAY KUMAR',
-    designation: 'Full Stack Developer',
-    aboutMe: `I'm an innovative Full Stack Web Developer with 4 years of work experience (3 years in hand) in web development.
-            Mostly i worked on Javascript frameworks such as Angular, ReactJS, NodeJS, Ionic etc.
-            Recently I have created a version controller for pdf & BOT for automatic tally data insertion.
-            I have developed products for more than 3 startups with upto 90% work satisfaction.`,
+    designation: '(Full Stack Developer)',
+    aboutMe: `I'm an innovative Full Stack Web Developer with 5 years of work experience (4 years in hand) in web development.
+            Mostly I worked on Javascript frameworks such as Angular, React, NodeJS, Ionic, NestJS etc. 
+            I have also worked on Banking, Fastage, Challan Automation using Python. I have developed products for more than 4 startups.
+            I’m looking for a new challenge that can help me broaden my experience`,
     details: [
         { icon: 'fa fa-envelope', html: `<a href="mailto:jkrana008@gmail.com" alt="jkrana008@gmail.com" target="_blank" rel="noopener noreferrer">jkrana008@gmail.com</a>` },
         { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
@@ -13,9 +13,17 @@ const personalDetails = {
     ],
     experience: [
         {
+            designation: 'Sr. Software Engineer',
+            company: 'NeoDove Technologies',
+            duration: '05/2021 - Present',
+            location: 'Jaipur',
+            desc: `NeoDove is a Telecalling CRM and Sales Engagement Platform that helps small and medium businesses improve their telesales team’s
+            productivity and performance to drive higher growth in revenue.`,
+        },
+        {
             designation: 'Full Stack Developer',
             company: 'Axestrack Software Solutions',
-            duration: '10/2020 - Present',
+            duration: '10/2020 - 05/2021',
             location: 'Jaipur',
             desc: `Provide the GPS based tracking solutions for consignment, personal, mobile and vehicle based tracking with Geofence, Over Speed, stoppage, Route-deviation, 
             Break-down, fuel consumption and different-2 Sensor based analysis solution.`,
@@ -62,8 +70,14 @@ const personalDetails = {
             desc: ''
         }
     ],
-    skills: ['Javascript', 'Python', 'MongoDB', 'Angular', 'ReactJS', 'NodeJS', 'Ionic'],
+    skills: ['Angular', 'React', 'NodeJS', 'NestJS', 'Javascript', 'Python', 'MongoDB', 'Postgres', 'Redis', 'RabbitMQ', 'AWS', 'Automation'],
     projects: [
+        {
+            name: 'NeoDove, NeoBiz',
+            tech: 'Angular, React, NodeJs, PostgreSQL',
+            desc: `Telecalling CRM and Sales Engagement Platform`,
+            link: 'https://neodove.com/'
+        },
         {
             name: 'Automation (Bank, Challan, RC, Driver, Tally, Fastag)',
             tech: 'Python, Selenium, UI Path',
@@ -126,12 +140,6 @@ const personalDetails = {
             tech: 'Angular 2',
             desc: `Shortcut is the easiest way to get a haircut on-demand, right in the comfort of your home or office.`,
             link: 'https://www.getshortcut.co/'
-        },
-        {
-            name: 'MyLib',
-            tech: 'Ionic 2, Loopback, MongoDB',
-            desc: `A digital library for students, contain information in the form of audio, video & text.`,
-            link: 'https://play.google.com/store/apps/details?id=com.softbox.mylib&hl=en'
         },
         {
             name: 'SparUp',
