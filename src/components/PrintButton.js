@@ -10,11 +10,8 @@ const PrintButton = ({ id, label }) => (<div className="tc mb4 mt2">
             const input = document.getElementById(id);
             html2canvas(input, { scale: 2 })
                 .then((canvas) => {
-                    var imgWidth = 211;
-                    // var pageHeight = 297;
+                    let imgWidth = 211;
                     var imgHeight = canvas.height * imgWidth / canvas.width;
-                    // var heightLeft = imgHeight;
-
                     const context = canvas.getContext('2d');
                     context.scale(2, 2);
                     context['dpi'] = 196;
@@ -26,9 +23,9 @@ const PrintButton = ({ id, label }) => (<div className="tc mb4 mt2">
 
                     const contentDataURL = canvas.toDataURL('image/png')
                     let pdf = new jsPDF('p', 'mm', 'a4', true); // A4 size page of PDF
-                    var position = 0;
+                    let position = 0;
                     pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight, '', 'FAST')
-                    pdf.save('theJaiRana-fullStack-Developer.pdf'); // Generated PDF
+                    pdf.save('Jay-Kumar-fullStack-Developer.pdf'); // Generated PDF
                 })
 
         }}
