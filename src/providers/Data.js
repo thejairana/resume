@@ -3,12 +3,14 @@ const personalDetails = {
     designation: '(Full Stack Developer) ',
     aboutMe: `I'm an innovative Full Stack Web Developer with 5 years of work experience (4 years in hand) in web development.
             Mostly I worked on Javascript frameworks such as Angular, React, NodeJS, Ionic, NestJS etc. 
-            I have also worked on Banking, Fastage, Challan Automation using Python. I have developed products for more than 4 startups.
-            I’m looking for a new challenge that can help me broaden my experience`,
+            I have also worked on RPA's (Robotic Automation Process) using Python & UI Path. 
+            I have created RPA's for Banking, Fastage, Challan & Tally processes. 
+            I have developed products for more than 4 startups.
+            I’m looking for a new challenge that can help me broaden my experience.`,
     details: [
         { icon: 'fa fa-envelope', html: `<a href="mailto:jkrana008@gmail.com" alt="jkrana008@gmail.com" target="_blank" rel="noopener noreferrer">jkrana008@gmail.com</a>` },
         { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
-        { icon: 'fa fa-mobile', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
+        { icon: 'fa fa-mobile f1-mobile-icon', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
         { icon: 'fa fa-calendar', html: `15 Aug 1993` },
     ],
     experience: [
@@ -23,19 +25,19 @@ const personalDetails = {
         {
             designation: 'Full Stack Developer',
             company: 'Axestrack Software Solutions',
-            duration: '10/2020 - 05/2021',
+            duration: '02/2018 - 05/2021',
             location: 'Jaipur',
             desc: `Provide the GPS based tracking solutions for consignment, personal, mobile and vehicle based tracking with Geofence, Over Speed, stoppage, Route-deviation, 
             Break-down, fuel consumption and different-2 Sensor based analysis solution.`,
         },
-        {
-            designation: 'Full Stack Developer',
-            company: 'Elogist Private Ltd.',
-            duration: '02/2018 - 09/2020',
-            location: 'Jaipur',
-            desc: `Provide AI based solution for Fastag Toll, Fuel Consumption, Trip Management, Location Tracking, Challan Payments, 
-            Driver Performance Monitoring & Other Logistic Services.`,
-        },
+        // {
+        //     designation: 'Full Stack Developer',
+        //     company: 'Elogist Private Ltd.',
+        //     duration: '02/2018 - 09/2020',
+        //     location: 'Jaipur',
+        //     desc: `Provide AI based solution for Fastag Toll, Fuel Consumption, Trip Management, Location Tracking, Challan Payments, 
+        //     Driver Performance Monitoring & Other Logistic Services.`,
+        // },
         {
             designation: 'Full Stack Developer',
             company: 'Appwallaz',
@@ -70,7 +72,7 @@ const personalDetails = {
             desc: ''
         }
     ],
-    skills: ['Angular', 'React', 'NodeJS', 'NestJS', 'Javascript', 'Python', 'MongoDB', 'Postgres', 'Redis', 'RabbitMQ', 'AWS', 'Automation'],
+    skills: ['Angular', 'React', 'Node JS', 'Nest JS', 'GIT', 'JavaScript', 'Python', 'MongoDB', 'PostgreSQL', 'Redis', 'RabbitMQ', 'AWS', 'Automation', 'RPA'],
     projects: [
         {
             name: 'NeoDove, NeoBiz',
@@ -93,8 +95,7 @@ const personalDetails = {
         {
             name: 'Trackurate',
             tech: 'Angular, Ionic, NodeJS, MongoDB',
-            desc: `DOST is a complete ERP for logistic owners to manage their records. 
-            It has more than 7 modules such as accounting, trips, tyres, documents etc.`,
+            desc: `Trackurate is an advanced GPS tracking application which accurately lets a user identify the current location of his vehicle.`,
             link: 'https://play.google.com/store/apps/details?id=gold.fvts.in'
         },
         {
@@ -114,13 +115,13 @@ const personalDetails = {
             name: 'The Peak Dispensary',
             tech: 'Ionic, NodeJS, Angular, MongoDB',
             desc: `A mobile application & website to sale marijuana medicine online in USA.`,
-            link: 'https://play.google.com/store/apps/details?id=com.sanghi.motrs'
+            link: 'https://thepeakok.com/'
         },
         {
             name: 'Volkswagen Jaipur',
             tech: 'Ionic, NodeJS, Angular, MongoDB',
             desc: `A mobile application for Volkswagen Jaipur for service booking, test drive booking, sales enquiries etc.`,
-            link: "https://play.google.com/store/apps/details?id=com.sanghi.motrs",
+            // link: "https://play.google.com/store/apps/details?id=com.sanghi.motrs",
 
         },
         {
@@ -133,7 +134,7 @@ const personalDetails = {
             name: 'SeeADoc',
             tech: 'Ionic, NodeJS, MongoDB',
             desc: `A appointment booking system for patients. Patients can book appointment on a particular time slot with live tracking.`,
-            link: 'https://play.google.com/store/apps/details?id=io.ionic.starterseeadoc2018'
+            // link: 'https://play.google.com/store/apps/details?id=io.ionic.starterseeadoc2018'
         },
         {
             name: 'GetShortCut',
@@ -145,7 +146,7 @@ const personalDetails = {
             name: 'SparUp',
             tech: 'Ionic, AngularJS, NodeJS, MongoDB',
             desc: `A training management system used by coaches, athelets, parents & managers to view, follow & manage athelet activities.`,
-            link: 'https://play.google.com/store/apps/details?id=com.youstart.sparup'
+            link: 'https://www.sparup.com/'
         }
     ],
 }

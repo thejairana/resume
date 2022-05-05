@@ -9,7 +9,7 @@ class App extends React.Component {
     console.log('---------');
     var element = document.getElementById('resume');
     var opt = {
-      filename: 'the-jai-rana-resume.pdf',
+      filename: 'jay-kumar-resume.pdf',
       html2canvas: { scale: 2.5 },
       jsPDF: { format: 'a4' }
     };

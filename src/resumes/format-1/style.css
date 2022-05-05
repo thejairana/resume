@@ -7,7 +7,7 @@
 }
 
 .f1-resume-header {
-    background: #000;
+    background: #495057;
     padding: 15px 25px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .f1-resume-header .f1-designation {
-    color: #4CAF50;
+    color: #ffc107;
     line-height: 19px;
     font-family: verdana;
     margin-top: 5px;
@@ -32,17 +32,18 @@
     font-size: 20px;
 }
 
-.f1-resume-header .f1-desrciption {
+.f1-resume-header .f1-description {
     font-size: 12px;
     color: #fff;
     margin-top: 8px;
+    text-align: justify;
 }
 
 .f1-personal-details {
-    background: #2b343f;
+    background: #dc3545;
     padding: 15px 25px;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .f1-personal-details .col-6 {
@@ -84,13 +85,13 @@
 .f1-ex-position {
     font-weight: 500;
     font-size: 12px;
-    color: #4f90cd;
+    color: #28a745;
     font-style: italic;
 }
 
 .f1-ex-working {
     font-size: 12px;
-    color: #4f90cd;
+    color: #dc3545;
     font-style: italic;
 }
 
@@ -107,6 +108,7 @@
     font-size: 12px;
     font-style: italic;
     color: #333;
+    text-align: justify;
 }
 
 /* Experience End */
@@ -120,7 +122,7 @@
 
 .f1-edu-stream {
     font-size: 12px;
-    color: #4f90cd;
+    color: #28a745;
     font-style: italic;
     font-weight: 500;
 }
@@ -132,7 +134,7 @@
 
 .f1-edu-time-place {
     font-size: 12px;
-    color: #4f90cd;
+    color: #dc3545;
     font-style: italic;
 }
 
@@ -161,8 +163,9 @@
 
 .f1-pro-tech {
     font-size: 13px;
-    color: #4f90cd;
+    color: #28a745;
     font-style: italic;
+    letter-spacing: 0.2px;
 }
 
 /* .f1-achievements-list {
@@ -192,9 +195,9 @@
 }
 
 .f1-skills span {
-    background: #2b343f;
+    background: #dc3545;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     padding: 3px 8px;
     border-radius: 4px;
     margin-right: 8px;
@@ -210,10 +213,11 @@
 }
 
 .f1-project-desc {
-    font-size: 11px;
+    font-size: 12px;
     font-style: italic;
-    color: #888;
+    color: #444;
     line-height: 15px;
+    text-align: justify;
 }
 
 
@@ -224,7 +228,7 @@
 }
 
 .f1-project:not(:first-child) {
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .f1-certificate:not(:first-child) {
@@ -246,4 +250,9 @@
 
 .f1-margin-top-15 {
     margin-top: 15px !important;
+}
+
+.f1-mobile-icon {
+    font-size: 20px;
+    margin-left: 3px;
 }
